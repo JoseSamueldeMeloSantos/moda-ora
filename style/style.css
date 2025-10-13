@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&family=Viaoda+Libre&display=swap');
+
+:root {
+  --header-color: #162028;
+  --text-color-menu: #425564;
+  --text-color: #555;
+  --details-container-color: #003d52;
+  --fotter-color: #0b171f;
+  --fotter-text-color: #6f8597;
+  --default-font: "Roboto";
+  --title-font: "Viaoda Libre"
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto",'Lucida Sans', 
+                'Lucida Sans Regular', 
+                'Lucida Grande', 'Lucida Sans Unicode', 
+                Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__title {
+    margin-left: 11rem;
+    text-transform: uppercase;
+    font-family: var(--title-font);
+    font-size: 2.7em;
+    color: white;
+}
+
+.hero-nav {
+    margin-right: 5rem;
+}
+
+.hero-nav__list {
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    gap: 8rem;
+}
+
+.hero-nav__item {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 0;
+    
+}
+
+.hero-nav__button {
+    text-decoration: none;
+    color: var(--text-color-menu);
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
