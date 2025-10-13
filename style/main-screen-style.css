@@ -88,7 +88,7 @@ body {
 .styles-container__title {
     font-family: var(--title-font);
     font-size: 4rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     margin-bottom: 0;
     color: black;
 }
@@ -98,7 +98,7 @@ body {
     font-size: 1.8rem;
     width: 90rem;
     height: 40vh;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
@@ -142,6 +142,7 @@ body {
 
     padding: 8rem 0  0 10rem;
     box-sizing: border-box;
+    margin-bottom: 0;
 }
 
 .details-container__title {
@@ -156,4 +157,14 @@ body {
     font-size: 1.7rem;
     width: 80ch;
     line-height: 30px;
+}
+
+/*footer-container*/
+.footer-container {
+    background-color: var(--fotter-color);
+    color: var(--fotter-text-color);
+    font-size: 1.5rem;
+
+    padding: 10px;
+    text-align: center;
 }
