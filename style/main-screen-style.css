@@ -25,6 +25,7 @@ body {
     margin: 0;
 }
 
+/*hero*/
 .hero {
     background-color: var(--header-color);
     display: flex;
@@ -64,6 +65,12 @@ body {
     font-size: 1.9rem;
     text-transform: uppercase;
 }
+
+.hero-nav__button:hover {
+    color: #7d95a8;
+}
+
+/*main container*/
 
 .main-container {
     height: var(--container-y-size);
