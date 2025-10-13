@@ -78,6 +78,7 @@ body {
 /*style para o styles-container*/
 
 .styles-container {
+    color: var(--text-color);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -87,8 +88,9 @@ body {
 .styles-container__title {
     font-family: var(--title-font);
     font-size: 4rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 0;
+    color: black;
 }
 
 .styles-container__text {
@@ -96,11 +98,34 @@ body {
     font-size: 1.8rem;
     width: 90rem;
     height: 40vh;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
     text-align: center;
 }
 
 .styles-container__div {
     display: flex;
     gap: 3rem;
+}
+
+.style-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style-type__img {
+    height: 17rem;
+    margin-bottom: 0;
+}
+
+.style-type__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    
+}
+
+.style-type__text {
+    font-size: 1.4rem;
 }
