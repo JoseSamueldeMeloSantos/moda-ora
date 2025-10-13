@@ -9,7 +9,8 @@
   --fotter-color: #0b171f;
   --fotter-text-color: #6f8597;
   --default-font: "Roboto";
-  --title-font: "Viaoda Libre"
+  --title-font: "Viaoda Libre";
+  --container-y-size: calc(100vh - 75.1667px);
 }
 
 html {
@@ -62,4 +63,44 @@ body {
     color: var(--text-color-menu);
     font-size: 1.9rem;
     text-transform: uppercase;
+}
+
+.main-container {
+    height: var(--container-y-size);
+    background-image: url("/imagens/topo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+   
+}
+
+/*style para o styles-container*/
+
+.styles-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.styles-container__title {
+    font-family: var(--title-font);
+    font-size: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.styles-container__text {
+    line-height: 35px;
+    font-size: 1.8rem;
+    width: 90rem;
+    height: 40vh;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.styles-container__div {
+    display: flex;
+    gap: 3rem;
 }
