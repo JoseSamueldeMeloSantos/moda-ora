@@ -16,4 +16,4 @@ O projeto **Moda Ora** é um site de moda fictício, focado em demonstrar um des
     * Imagens de fundo fixas e dimensionadas (`background-attachment: fixed`, `background-size: cover`).
 
 ## ✨ Imagem do Site
-
+![Captura de tela do site Moda Ora](imagens/screenshot-moda-ora.png)
